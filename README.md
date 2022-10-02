@@ -1,17 +1,17 @@
 # AWS-EC2-SSM-Documenrt
 
 ## SSM을 통한 원격 명령 수행
-	- Systems Manager 사전 조건 충족 (참고 : https://docs.aws.amazon.com/ko_kr/systems-manager/latest/userguide/systems-manager-prereqs.html)
-	- EC2 OS Update 수행
-	- 고객이 보유한 인스턴스의 OS가 다를 경우도 효율적으로 Update명령을 수행할 것 
-	- Test OS : Amazon Linux2, Ubuntu, SUSE Linux, Redhat
+- [Systems Manager 사전 조건 충족](https://docs.aws.amazon.com/ko_kr/systems-manager/latest/userguide/systems-manager-prereqs.html)
+- EC2 OS Update 수행
+- 고객이 보유한 인스턴스의 OS가 다를 경우도 효율적으로 Update명령을 수행할 것 
+- Test OS : Amazon Linux2, Ubuntu, SUSE Linux, Redhat
 
 
-## SSM 문서 생성 후 해당 문서로 명령 실행 (참고 : https://docs.aws.amazon.com/ko_kr/systems-manager/latest/userguide/sysman-ssm-docs.html)
-	- AWS SSM Run Command 사용
-	- Precondition 파라미터로 교차 플랫폼 지원 (참고 : https://docs.aws.amazon.com/ko_kr/systems-manager/latest/userguide/document-schemas-features.html)
-	- 리눅스도 Ubuntu, CentOS, SUSE 등 다양하기 때문에 스크립트로 각 OS마다 다른 명령어 실행
-	- Ubuntu, SUSE 등 인스턴스 실행 시 SSM Agent가 자동으로 실행되지 않는 OS는 직접 SSM agent 설치 후 실행해줘야 SSM Run Command 사용 가능
+## [SSM 문서 생성 후 해당 문서로 명령 실행](https://docs.aws.amazon.com/ko_kr/systems-manager/latest/userguide/sysman-ssm-docs.html)
+- AWS SSM Run Command 사용
+- [Precondition 파라미터로 교차 플랫폼 지원](https://docs.aws.amazon.com/ko_kr/systems-manager/latest/userguide/document-schemas-features.html)
+- 리눅스도 Ubuntu, CentOS, SUSE 등 다양하기 때문에 스크립트로 각 OS마다 다른 명령어 실행
+- Ubuntu, SUSE 등 인스턴스 실행 시 SSM Agent가 자동으로 실행되지 않는 OS는 직접 SSM agent 설치 후 실행해줘야 SSM Run Command 사용 가능
 
 
 ## 	AWS SSM 문서 생성
@@ -19,7 +19,7 @@
 
 ![image](https://user-images.githubusercontent.com/43159901/193452143-8cba749f-a81c-4f0e-9a28-f1e0d77f31ac.png)
 ##  AWS SSM 문서 생성 확인
-[SSM Docs](https://github.com/Kwon-Sung-joon/AWS-EC2-SSM-Doc-for-OS-Update/blob/main/SSM-Docs)
+[SSM Docs Contents](https://github.com/Kwon-Sung-joon/AWS-EC2-SSM-Doc-for-OS-Update/blob/main/SSM-Docs)
 ![image](https://user-images.githubusercontent.com/43159901/193452254-46ef491e-31e2-419d-a486-ed3eeb6f845e.png)
 
 
