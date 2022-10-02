@@ -21,7 +21,7 @@
 ##  AWS SSM 문서 생성 확인
 
 ![image](https://user-images.githubusercontent.com/43159901/193452254-46ef491e-31e2-419d-a486-ed3eeb6f845e.png)
-[SSMDocsContents.yaml](https://github.com/Kwon-Sung-joon/AWS-EC2-SSM-Doc-for-OS-Update/blob/main/SSM-Docs)
+[SSMDocsContents.yaml](https://github.com/Kwon-Sung-joon/AWS-EC2-SSM-Doc-for-OS-Update/blob/main/SSM-Docs.yaml)
 ![image](https://user-images.githubusercontent.com/43159901/193452619-c3208304-2489-412d-89ee-a19add50260a.png)
 
 
